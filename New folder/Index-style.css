@@ -198,9 +198,15 @@ footer{
   .cards {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width: 200px;
+    height: 200px;
     margin-left: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
+    margin-right: 10px;
+    color: black;
+    font-size: 80%;
+    margin-top: 0%;
+    text-align: center;
     }
     
     @media screen and (max-width: 600px) {
@@ -208,12 +214,9 @@ footer{
     width: 125px;
     }
     }
-  .containers a{
+  .cards, a{
     text-decoration: none;
-    color: black;
-    font-size: 80%;
   }
-  .containers{
-      margin-top: 50%;
-      text-align: center;
+  .cards p{
+    padding-top: 50%;
   }
